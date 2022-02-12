@@ -1,8 +1,10 @@
-package pl.kowalecki.blooddonationapi.model;
+package pl.kowalecki.blooddonationapi.model.donation;
 
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import java.util.Date;
+
 
 public class BloodDonationModel {
 
@@ -10,17 +12,19 @@ public class BloodDonationModel {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     int bloodId;
     String amonutDonation;
-    String dateDonation;
+    Date dateDonation;
     String placeDonation;
+    int donatorId;
 
     public BloodDonationModel() {
     }
 
-    public BloodDonationModel(int bloodId, String amonutDonation, String dateDonation, String placeDonation) {
+    public BloodDonationModel(int bloodId, String amonutDonation, Date dateDonation, String placeDonation, int donatorId ) {
         this.bloodId = bloodId;
         this.amonutDonation = amonutDonation;
         this.dateDonation = dateDonation;
         this.placeDonation = placeDonation;
+        this.donatorId = donatorId;
     }
 
     public int getBloodId() {
@@ -39,11 +43,11 @@ public class BloodDonationModel {
         this.amonutDonation = amonutDonation;
     }
 
-    public String getDateDonation() {
+    public Date getDateDonation() {
         return dateDonation;
     }
 
-    public void setDateDonation(String dateDonation) {
+    public void setDateDonation(Date dateDonation) {
         this.dateDonation = dateDonation;
     }
 
@@ -55,6 +59,14 @@ public class BloodDonationModel {
         this.placeDonation = placeDonation;
     }
 
+    public int getDonatorId() {
+        return donatorId;
+    }
+
+    public void setDonatorId(int donatorId) {
+        this.donatorId = donatorId;
+    }
+
     @Override
     public String toString() {
         return "BloodDonationModel{" +
@@ -62,6 +74,7 @@ public class BloodDonationModel {
                 ", amonutDonation='" + amonutDonation + '\'' +
                 ", dateDonation='" + dateDonation + '\'' +
                 ", placeDonation='" + placeDonation + '\'' +
+                ", donatorId=" + donatorId +
                 '}';
     }
 }

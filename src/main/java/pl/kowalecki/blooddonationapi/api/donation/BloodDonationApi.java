@@ -1,16 +1,12 @@
-package pl.kowalecki.blooddonationapi.api;
+package pl.kowalecki.blooddonationapi.api.donation;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.context.annotation.Bean;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import pl.kowalecki.blooddonationapi.model.BloodDonationList;
-import pl.kowalecki.blooddonationapi.model.BloodDonationModel;
-import pl.kowalecki.blooddonationapi.service.BloodDonationService;
-
-import javax.persistence.Access;
-import java.util.List;
+import pl.kowalecki.blooddonationapi.model.donation.BloodDonationList;
+import pl.kowalecki.blooddonationapi.model.donation.BloodDonationModel;
+import pl.kowalecki.blooddonationapi.service.donation.BloodDonationService;
 
 @RequestMapping("/bloodDonation")
 @RestController
