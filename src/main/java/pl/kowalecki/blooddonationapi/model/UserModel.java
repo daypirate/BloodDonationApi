@@ -1,4 +1,4 @@
-package pl.kowalecki.blooddonationapi.model.user;
+package pl.kowalecki.blooddonationapi.model;
 
 import org.springframework.format.annotation.DateTimeFormat;
 

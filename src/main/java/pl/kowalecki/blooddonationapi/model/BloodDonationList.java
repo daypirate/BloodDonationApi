@@ -1,4 +1,4 @@
-package pl.kowalecki.blooddonationapi.model.donation;
+package pl.kowalecki.blooddonationapi.model;
 
 import java.util.List;
 

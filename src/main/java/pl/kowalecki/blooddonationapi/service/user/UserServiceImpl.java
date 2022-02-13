@@ -3,10 +3,9 @@ package pl.kowalecki.blooddonationapi.service.user;
 import org.springframework.dao.EmptyResultDataAccessException;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Service;
-import pl.kowalecki.blooddonationapi.cipher.MD5Cipher;
-import pl.kowalecki.blooddonationapi.model.donation.BloodDonationList;
-import pl.kowalecki.blooddonationapi.model.donation.BloodDonationModel;
-import pl.kowalecki.blooddonationapi.model.user.UserModel;
+import pl.kowalecki.blooddonationapi.model.BloodDonationList;
+import pl.kowalecki.blooddonationapi.model.BloodDonationModel;
+import pl.kowalecki.blooddonationapi.model.UserModel;
 
 import java.util.ArrayList;
 import java.util.Date;

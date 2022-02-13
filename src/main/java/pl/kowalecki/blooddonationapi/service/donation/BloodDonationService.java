@@ -1,7 +1,7 @@
 package pl.kowalecki.blooddonationapi.service.donation;
 
-import pl.kowalecki.blooddonationapi.model.donation.BloodDonationList;
-import pl.kowalecki.blooddonationapi.model.donation.BloodDonationModel;
+import pl.kowalecki.blooddonationapi.model.BloodDonationList;
+import pl.kowalecki.blooddonationapi.model.BloodDonationModel;
 
 
 public interface BloodDonationService {

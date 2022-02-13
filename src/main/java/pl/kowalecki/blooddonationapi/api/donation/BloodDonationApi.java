@@ -4,8 +4,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import pl.kowalecki.blooddonationapi.model.donation.BloodDonationList;
-import pl.kowalecki.blooddonationapi.model.donation.BloodDonationModel;
+import pl.kowalecki.blooddonationapi.model.BloodDonationList;
+import pl.kowalecki.blooddonationapi.model.BloodDonationModel;
 import pl.kowalecki.blooddonationapi.service.donation.BloodDonationService;
 
 @RequestMapping("/bloodDonation")

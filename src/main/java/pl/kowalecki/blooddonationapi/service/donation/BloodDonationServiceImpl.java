@@ -2,8 +2,8 @@ package pl.kowalecki.blooddonationapi.service.donation;
 
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Service;
-import pl.kowalecki.blooddonationapi.model.donation.BloodDonationList;
-import pl.kowalecki.blooddonationapi.model.donation.BloodDonationModel;
+import pl.kowalecki.blooddonationapi.model.BloodDonationList;
+import pl.kowalecki.blooddonationapi.model.BloodDonationModel;
 
 import java.sql.Date;
 import java.util.ArrayList;

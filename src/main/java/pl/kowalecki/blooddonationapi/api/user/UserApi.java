@@ -8,13 +8,9 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import pl.kowalecki.blooddonationapi.cipher.MD5Cipher;
-import pl.kowalecki.blooddonationapi.model.ResultModel;
-import pl.kowalecki.blooddonationapi.model.donation.BloodDonationList;
-import pl.kowalecki.blooddonationapi.model.user.UserModel;
+import pl.kowalecki.blooddonationapi.model.BloodDonationList;
+import pl.kowalecki.blooddonationapi.model.UserModel;
 import pl.kowalecki.blooddonationapi.service.user.UserService;
-
-import java.util.List;
 
 @RequestMapping("/userAccount")
 @RestController

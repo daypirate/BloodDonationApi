@@ -1,10 +1,7 @@
 package pl.kowalecki.blooddonationapi.service.user;
 
-import pl.kowalecki.blooddonationapi.model.donation.BloodDonationList;
-import pl.kowalecki.blooddonationapi.model.donation.BloodDonationModel;
-import pl.kowalecki.blooddonationapi.model.user.UserModel;
-
-import java.util.List;
+import pl.kowalecki.blooddonationapi.model.BloodDonationList;
+import pl.kowalecki.blooddonationapi.model.UserModel;
 
 public interface UserService {
 
